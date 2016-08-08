@@ -215,3 +215,7 @@ alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune &&
 
 source ~/.aliases.user.zsh
 
+
+alias gch='git checkout'
+alias hk='heroku'
+alias al='alias'

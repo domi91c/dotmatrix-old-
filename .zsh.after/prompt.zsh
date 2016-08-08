@@ -1,1 +1,1 @@
-prompt giddie
+prompt cloud

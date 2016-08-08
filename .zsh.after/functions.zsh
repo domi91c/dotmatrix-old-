@@ -1,13 +1,14 @@
 #load functions
 alias ser='source ~/bin/functions.zsh'
 
-emacsclient_c () {
-    emacsclient -c -a '' "$@"
+emacsclient_24bit () {
+    ITERM_24BIT=1 emacsclient -c -a '' "$@"
 }
+
 # find file with fasd and open in emacsclient. can't remember which one is best?
-zed() {
+er() {
     if [[ $(fasd $@) ]]; then
-        emacsclient -c -a '' `fasd -a $1`;
+        ITERM_24BIT=1 emacsclient -c -a '' `fasd -a $1`;
     else
         echo "no result from fasd"
     fi
@@ -20,22 +21,28 @@ qf() {
 }
 
 
-gitpush() {
+github_push() {
     git add .
     git commit -m "$*"
     git push origin master
 }
 
-alias gq=gitpush
+github_heroku_push() {
+    git add .
+    git commit -m "$*"
+    git push origin master
+    git push heroku master
+}
 
-
+alias gq=github_push
+alias ghq=github_heroku_push
 
 loadnvm() {
     export NVM_DIR="$HOME/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 }
 
-editFileReturnedFromCommandOutput() {
+#open in editor file or directory returned from command output
+ped() {
     e $($@)
 }
-alias ped='editFileReturnedFromCommandOutput'
