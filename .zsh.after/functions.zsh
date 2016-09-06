@@ -5,6 +5,14 @@ emacsclient_24bit () {
     ITERM_24BIT=1 emacsclient -c -a '' "$@"
 }
 
+# find directory with fasd and open in emacsclient
+er() {
+    if [[ $(fasd $@) ]]; then
+        ITERM_24BIT=1 emacsclient -c -a '' `fasd -a $1`;
+    else
+        echo "no result from fasd"
+    fi
+}
 # find file with fasd and open in emacsclient. can't remember which one is best?
 er() {
     if [[ $(fasd $@) ]]; then
@@ -45,4 +53,17 @@ loadnvm() {
 #open in editor file or directory returned from command output
 ped() {
     e $($@)
+}
+
+# find and edit file fuzzy search 3 levels deep
+edd() {
+    local needle=$(echo "$*" | sed -E 's/ +/.*/g')
+    e "`find . -maxdepth 3 | grep -Ei "${needle}[^/]*$" | fzf -s 20 -1 -0
+# -q "$1"`"
+}
+# fuzzy search 3 levels deep
+cdd() {
+    local needle=$(echo "$*" | sed -E 's/ +/.*/g')
+    cd "`find . -type d -maxdepth 3 | grep -Ei "${needle}[^/]*$" | fzf -s 20 -1 -0
+# -q "$1"`"
 }

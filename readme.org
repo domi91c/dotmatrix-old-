@@ -55,32 +55,54 @@
      #+end_src
 ** Issues
 *** `ls` is slow. No matter the directory, there's always a delay compared to default zsh.
+**** has something to do with fasd.
+     I renamed fasd.zsh in .zsh.after/ to fasd.backup so that it's ignored for
+     now. The only configs in that file are aliases and something for the fasd
+     cache, so it must have something to do with the cache. Also replaced the fasd_cd function with the z script, which is a fine
+     workaround for now.
 ** Requirements
 *** brew
 *** ruby
 ** dotfiles
-
 *** .nvimrc
     A very basic one, cause I'm mostly using Spacemacs.
-
 *** .zshrc
     Using zsh obviously. Instead of installing a zsh framework, I'll install a
     simple zsh package manager like zgen. Research and find the best lightweight
     one.
-
 **** zgen
-
 **** antigen
-
 *** .tmux.conf
-
 *** .spacemacs
-
 *** .config/.nvim/init.vim
-
 *** .aliases
-
-
 ** Install Script
    Will probably write this in Ruby. Just because I'm more experienced with it
    than Perl/Python/Bash/Zsh.
+*** ./install.rb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* TODO Link other dotfiles
+** link .zshrc
+** link .spacemacs
+** link .tmux.conf
+   should probably make a tmux directory, and link that instead.
+*** link .tmux.theme
+** link user conf file
+*** ~/.aliases.user.zsh
+*** ~/.tmux.conf.user

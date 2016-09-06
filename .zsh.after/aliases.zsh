@@ -177,7 +177,7 @@ alias zc='zeus console'
 alias zr='zeus rspec'
 alias zrc='zeus rails c'
 alias zrs='zeus rails s'
-alias zrdbm='zeus rake db:migrate'
+alias zdbm='zeus rake db:migrate'
 alias zrdbtp='zeus rake db:test:prepare'
 
 # Rspec
@@ -215,7 +215,3 @@ alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune &&
 
 source ~/.aliases.user.zsh
 
-
-alias gch='git checkout'
-alias hk='heroku'
-alias al='alias'
