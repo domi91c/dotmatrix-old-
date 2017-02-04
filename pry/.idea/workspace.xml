@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="888e7bec-c7ba-4f04-8a1f-52dd7b6d0827" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pry" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".pryrc-helpers.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.pryrc-helpers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.pryrc" />
+        <option value="$PROJECT_DIR$/.pryrc-helpers.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
+    <option name="y" value="22" />
+    <option name="width" value="720" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="NBKnowledgePane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="888e7bec-c7ba-4f04-8a1f-52dd7b6d0827" name="Default" comment="" />
+      <created>1477963291558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477963291558</updated>
+      <workItem from="1477963294338" duration="502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="502000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="720" y="22" width="720" height="874" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs23/etc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="336" column="0" lean-forward="false" selection-start-line="336" selection-start-column="0" selection-end-line="336" selection-end-column="0" />
+          <folding>
+            <marker date="1475529838000" expanded="true" signature="0:154" ph="=begin ... =end" />
+            <marker date="1475529838000" expanded="true" signature="156:1100" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="1111:11978" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="1116:2824" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="2842:3633" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="3650:4097" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="4121:4172" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="4177:4725" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="4752:4803" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="4808:5264" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="5292:5343" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="5348:5478" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="5502:5553" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="5558:5667" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="5691:5742" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="5747:6120" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="6144:6195" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="6200:6656" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="6695:6746" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="6751:7195" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="7227:7278" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="7283:7715" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="7743:7794" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="7799:8153" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="8174:8225" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="8230:8359" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="8383:8434" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="8439:8545" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="8569:8620" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="8625:8995" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="9019:9070" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="9075:9311" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="9337:9388" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="9473:9524" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="9529:10017" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="10038:10089" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="10094:10490" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="10515:10566" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="10571:11089" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="11114:11165" ph=" ... end" />
+            <marker date="1475529838000" expanded="true" signature="11170:11896" ph="##..." />
+            <marker date="1475529838000" expanded="true" signature="11923:11974" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pryrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1477960325000" expanded="true" signature="0:128" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="557:676" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="677:881" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="883:1033" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="1034:1148" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="1150:1457" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="1459:1693" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="1695:2104" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="2106:2600" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="2231:2581" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="2262:2473" ph=" ... end" />
+            <marker date="1477960325000" expanded="true" signature="2357:2465" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="2504:2575" ph=" ... end" />
+            <marker date="1477960325000" expanded="true" signature="2602:2818" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="2819:3837" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="2866:2990" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="3017:3112" ph="{ ... }" />
+            <marker date="1477960325000" expanded="true" signature="3115:3481" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="3484:3664" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="3537:3591" ph="{ ... }" />
+            <marker date="1477960325000" expanded="true" signature="3708:3833" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="3760:3827" ph=" ... end" />
+            <marker date="1477960325000" expanded="true" signature="3781:3819" ph=" ... end" />
+            <marker date="1477960325000" expanded="true" signature="3838:4008" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="4053:4121" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="4150:4365" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="4391:4569" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="4619:4775" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="4808:5034" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="5036:5167" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="5285:5515" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="5550:5926" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="5927:6584" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="5957:6033" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="6062:6119" ph=" ... end" />
+            <marker date="1477960325000" expanded="true" signature="6092:6113" ph="{ ... }" />
+            <marker date="1477960325000" expanded="true" signature="6225:6528" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="6586:6908" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="6910:7099" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="6931:7095" ph="begin ... end" />
+            <marker date="1477960325000" expanded="true" signature="7101:7185" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="7264:7890" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="7271:7859" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="7459:7519" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="7539:7646" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="7654:7775" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="7892:7982" ph="##..." />
+            <marker date="1477960325000" expanded="true" signature="8036:8378" ph="do ... end" />
+            <marker date="1477960325000" expanded="true" signature="8068:8374" ph="if ... end" />
+            <marker date="1477960325000" expanded="true" signature="8101:8368" ph="if ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pryrc-helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>actioncable (v5.0.0, RVM: ruby-2.2.3) [gem]</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pry</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

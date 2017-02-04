@@ -1,56 +1,28 @@
-# Aliases in this file are bash and zsh compatible
-
-# Don't change. The following determines where YADR is installed.
-yadr=$HOME/.yadr
-dark_theme='dark theme'
-light_theme='light theme'
-
-# Get operating system
-platform='unknown'
-unamestr=$(uname)
-if [[ $unamestr == 'Linux' ]]; then
-  platform='linux'
-elif [[ $unamestr == 'Darwin' ]]; then
-  platform='darwin'
-fi
-
-# YADR support
-alias yav='yadr vim-add-plugin'
-alias ydv='yadr vim-delete-plugin'
-alias ylv='yadr vim-list-plugin'
-alias yup='yadr update-plugins'
-alias yip='yadr init-plugins'
-
 # PS
 alias psa="ps aux"
 alias psg="ps aux | grep "
 alias psr='ps aux | grep ruby'
 
 # Moving around
-alias cdb='cd -'
 alias cls='clear;ls'
 
 # Show human friendly numbers and colors
 alias df='df -h'
 alias du='du -h -d 2'
 
-# if [[ $platform == 'linux' ]]; then
-  # alias ll='ls -alh --color=auto'
-  # alias ls='ls --color=auto'
-# elif [[ $platform == 'darwin' ]]; then
-  alias ll='ls -alGh'
-  alias ls='ls -Gh'
-# fi
+alias ll='ls -alGh'
+alias ls='ls -Gh'
 
 # show me files matching "ls grep"
-alias lsg='ll | grep'
+alias lsg='ls -a | grep'
+alias llsg='ll | grep'
 
 # Alias Editing
 TRAPHUP() {
-  source $HOME/.zsh.after/aliases.zsh
+    source $HOME/.zsh.after/aliases.zsh
 }
 
-alias ae='e $HOME/.zsh.after/aliases.zsh' #alias edit
+alias ae='v $HOME/.zsh.after/aliases.zsh' #alias edit
 alias ar='source $HOME/.zsh.after/aliases.zsh'  #alias reload
 alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
 
@@ -58,17 +30,17 @@ alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
 mvim --version > /dev/null 2>&1
 MACVIM_INSTALLED=$?
 if [ $MACVIM_INSTALLED -eq 0 ]; then
-  alias vim="mvim -v"
+    alias vim="mvim -v"
 fi
 
 # mimic vim functions
 alias :q='exit'
 
 # vimrc editing
-alias ve='e ~/.vimrc'
+alias ve='vim ~/.vimrc'
 
 # zsh profile editing
-alias ze='e ~/.zshrc'
+alias ze='v ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
@@ -79,7 +51,7 @@ alias gsa='git stash apply'
 alias gsh='git show'
 alias gshw='git show'
 alias gshow='git show'
-alias gi='e .gitignore'
+alias gi='v .gitignore'
 alias gcm='git ci -m'
 alias gcim='git ci -m'
 alias gci='git ci'
