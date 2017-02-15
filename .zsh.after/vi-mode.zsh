@@ -6,5 +6,5 @@ set -o vi
 # export EDITOR="ITERM_24BIT=1 emacsclient -c -a ''"
 # export VISUAL="ITERM_24BIT=1 emacsclient -c -a ''"
 # switching back to vim temporarily
-export EDITOR="vim"
-export VISUAL="vim"
+export EDITOR="nvim"
+export VISUAL="nvim"

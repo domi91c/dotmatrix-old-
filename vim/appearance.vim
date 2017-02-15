@@ -33,9 +33,9 @@ let g:lightline = {
 set laststatus=2
 
 " 24bit vim... somehow
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-set termguicolors
+" let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+" let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+" set termguicolors
 
 
 let g:dracula_italic = 1
@@ -45,10 +45,11 @@ syntax enable
 set background=dark
 " colorscheme nord
 " colorscheme srcery
-" colorscheme tomorrow-night
-colorscheme sourcerer
+colorscheme tomorrow-night
+" colorscheme sourcerer
 " colorscheme dracula
 " colorscheme monokai-soda
+" colorscheme amcolors
 
 " hi NonText ctermbg=none
 " hi Normal guibg=NONE ctermbg=NONE

@@ -11,8 +11,8 @@ nnoremap <leader>fs :w<CR>
 "paste from clipboard
 nmap <C-x>p "*p
 nmap <C-x>P "*P
-nmap <C-x>y "*y
-nmap <C-x>Y "*Y
+vmap <C-x>y "*y
+vmap <C-x>Y "*Y
 
 " Move up/down editor lines
 nnoremap j gj
@@ -102,3 +102,52 @@ function! NetrwMapping()
   noremap <buffer> x :Rex<CR>
   noremap <buffer> q :Rex<CR>
 endfunction
+
+nmap 0 ^
+
+
+nnoremap <leader>q :q<CR>
+nnoremap <leader>Q :q!<CR>
+
+
+
+
+" function! MyDeleteAction()
+"   " Get the current position and the position of the first char
+"   let cursorPosition=getpos(".")
+"   normal ^
+"   let firstChar=getpos(".")
+
+"   " If the cursor is before the first char, go to the upper line
+"   if cursorPosition[2] < firstChar[2]
+"     normal! y$0Dk$
+"     let cursorPosition=getpos(".")
+"     normal! p
+"   endif
+
+"   " Go back to the correct position
+"   call setpos('.', cursorPosition)
+" endfunction
+
+" inoremap <silent> <backspace> <backspace><Esc>:call MyDeleteAction()<CR>
+" nnoremap <silent> <leader>bs  <backspace><Esc>:call MyDeleteAction()<CR>
+
+nnoremap \ `
+
+
+"{{{{{{{{{{{{{{{{ BUFFERS
+
+" To open a new empty buffer
+" This replaces :tabnew which I used to bind to this mapping
+nmap <leader>T :enew<cr>
+" Move to the next buffer
+nmap L :bnext<CR>
+" Move to the previous buffer
+nmap H :bprevious<CR>
+" Close the current buffer and move to the previous one
+" This replicates the idea of closing a tab
+nmap <leader>bq :bp <BAR> bd #<CR>
+" Show all open buffers and their status
+nmap <leader>bl :ls<CR>
+
+"}}}}}}}}}}}}}}}}}}}}}}}}

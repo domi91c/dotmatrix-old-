@@ -38,6 +38,8 @@ alias :q='exit'
 
 # vimrc editing
 alias ve='vim ~/.vimrc'
+# nvimrc editing
+alias nve='nv ~/.config/nvim/init.vim'
 
 # zsh profile editing
 alias ze='v ~/.zshrc'

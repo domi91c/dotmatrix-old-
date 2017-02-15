@@ -1,3 +1,4 @@
+
 " go to
 autocmd BufRead,BufNewFile *.js nnoremap <buffer><silent><C-]> :YcmCompleter GoTo<CR>
 autocmd BufRead,BufNewFile *.rb nnoremap <buffer><silent><C-]> :YcmCompleter GoTo<CR>

@@ -15,30 +15,15 @@ if (empty($TMUX))
   endif
 endif
 
-hi Normal ctermbg=none
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
-highlight LineNr ctermbg=none
-highlight CursorLineNr ctermbg=none
-let g:rehash256 = 1
+" hi Normal ctermbg=none
+" highlight Normal ctermbg=none
+" highlight NonText ctermbg=none
+" highlight LineNr ctermbg=none
+" highlight CursorLineNr ctermbg=none
+" let g:rehash256 = 1
 
-nnoremap <Leader>tbgl :set bg=light<CR>
-nnoremap <Leader>tbgd :set bg=dark<CR>
-" nnoremap <Leader>tbgp :colorscheme PaperColor<CR>
-
-
-hi Normal guibg=NONE ctermbg=NONE
-
-
-
-" Theme
-syntax enable
-" colorscheme hybrid_reverse
-
-" colorscheme tender
 " colorscheme tender
 " colorscheme seoul256
-
 
 " Lightline
 let g:lightline = {
@@ -47,12 +32,27 @@ let g:lightline = {
 """ appear with single buffer
 set laststatus=2
 
-
-
 " 24bit vim... somehow
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+" let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+" let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+" set termguicolors
 
+
+let g:dracula_italic = 1
+
+" Theme
+syntax enable
 set background=dark
+" colorscheme nord
+" colorscheme srcery
+colorscheme tomorrow-night
+" colorscheme sourcerer
+" colorscheme dracula
+" colorscheme monokai-soda
+" colorscheme amcolors
 
-" colorscheme PaperColor
+" hi NonText ctermbg=none
+" hi Normal guibg=NONE ctermbg=NONE
+
+ 
+
